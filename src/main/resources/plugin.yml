@@ -1,1 +1,12 @@
+name: Enigme
+version: 1.0.0
+main: me.alexasdy.enigme.Main
+api-version: '1.20'
+author: alexasdy
+description: Плагин с командами спавна
 
+commands:
+  spawn:
+    description: Телепортирует на спавн мира
+    usage: /spawn
+    aliases: [sp]
