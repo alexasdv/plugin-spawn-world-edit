@@ -1,0 +1,11 @@
+name: WorldEditClone
+version: 1.0
+main: Main
+api-version: '1.20'
+commands:
+  //:
+    description: WorldEdit commands
+  spawn:
+    description: Teleport to spawn
+  setspawn:
+    description: Set spawn point
