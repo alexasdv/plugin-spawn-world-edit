@@ -1,0 +1,27 @@
+name: WorldEditSpawn
+version: 1.0.0
+main: com.alexasdr.worldedit.Main
+api-version: '1.20'
+description: WorldEdit Clone + Spawn System
+author: alexasdr
+
+commands:
+  //:
+    description: WorldEdit commands
+    aliases: [worldedit, we]
+  spawn:
+    description: Teleport to spawn
+  setspawn:
+    description: Set spawn point
+  wand:
+    description: Get selection wand
+  dungeon:
+    description: Generate dungeon
+
+permissions:
+  worldedit.*:
+    description: All WorldEdit permissions
+    default: op
+  worldedit.spawn:
+    description: Use spawn commands
+    default: true
